@@ -1,0 +1,2 @@
+node calcula.js
+pause

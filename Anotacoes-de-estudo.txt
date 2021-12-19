@@ -1,0 +1,40 @@
+###########################
+###	Express		###
+###########################
+https://expressjs.com/pt-br/
+É um Framework minimalista.
+É focado no back-end, não é um Framework fullstack.
+
+###########################
+##	NPM		###
+###########################
+https://www.npmjs.com
+É o maior repositório de pacotes que existe.
+Um bom lugar para baixar o Express através do NPM.
+
+Baixamos o Express através do NPM com o seguinte comando:
+npm install express --save
+
+
+###########################
+###	Configurações	###
+###########################
+
+package.lock.json
+É um arquivo de informações sobre os módulos que existem no projeto.
+Fica na raiz quando se instala no Express.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
