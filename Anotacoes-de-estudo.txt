@@ -25,7 +25,11 @@ https://www.npmjs.com/search?q=sequelize
 
 Sequelize é um módulo para trabalhar com banco de dados no NodeJS. Ele trabalha com o MySQL e com alguns outros bancos de dados.
 
+Para instalar, rode o comando:
+npm install --save sequelize
 
+Depois instale o suporte para MySQL
+npm install --save mysql2
 
 ###########################
 ###	Configurações	###
