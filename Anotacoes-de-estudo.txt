@@ -5,15 +5,26 @@ https://expressjs.com/pt-br/
 É um Framework minimalista.
 É focado no back-end, não é um Framework fullstack.
 
-###########################
-##	NPM		###
-###########################
+###################################
+###	REPOSITÓRIO NPM		###
+###	INSTALANDO O EXPRESS	###
+###################################
 https://www.npmjs.com
 É o maior repositório de pacotes que existe.
 Um bom lugar para baixar o Express através do NPM.
 
 Baixamos o Express através do NPM com o seguinte comando:
 npm install express --save
+
+###################################
+###	REPOSITÓRIO NPM		###
+###	INSTALANDO O SEQUELIZE	###
+###################################
+
+https://www.npmjs.com/search?q=sequelize
+
+Sequelize é um módulo para trabalhar com banco de dados no NodeJS. Ele trabalha com o MySQL e com alguns outros bancos de dados.
+
 
 
 ###########################
@@ -24,9 +35,22 @@ package.lock.json
 É um arquivo de informações sobre os módulos que existem no projeto.
 Fica na raiz quando se instala no Express.
 
+-------------------------
+-> Para atualizar automaticamente o server conforme vamos modificando o código:
+Abra o CMD e digite:
+npm install nodemon -g
+
+o comando -g serve para instalar o nodemon global no PC para que se possa usar os comandos direto do sistema operacional.
+
+Agora podemos rodar o servidor com a linha de comando direto no CMD (lembre de estar no diretório do arquivo js):
+nodemon app.js
 
 
+###########################
+###	Mensagens	###
+###########################
 
+Se aparecer: Cannot GET / Significa que o servidor não encontrou uma rota para executar.
 
 
 
