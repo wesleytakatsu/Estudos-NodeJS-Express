@@ -31,6 +31,35 @@ npm install --save sequelize
 Depois instale o suporte para MySQL
 npm install --save mysql2
 
+
+###########################
+###	HANDLEBARS	###
+###########################
+
+https://handlebarsjs.com/
+
+Vamos instalar uma versão específica para o Express.
+Para instalar, rode o comando:
+npm install --save express-handlebars
+
+Início do arquivo:
+---------------------------
+const express = require("express")
+const app = express()
+const handlebars = require('express-handlebars')
+
+//Config
+	//Template Engine
+	app.engine('hadlebars', handlebars({defaultLayout: 'main'}))
+	app.set('view engine', 'handlebars')
+//O template padrão fica em views/layouts/main.handlebars
+
+app.listen(50001, function(){
+	console.log("Servidor online!")
+})
+
+
+
 ###########################
 ###	Configurações	###
 ###########################
